@@ -13,7 +13,9 @@
 
 🚀 Initialization & Window Creation
 To start using the library, load the source and create your main window. The window supports auto-resizing based on device (PC/Mobile) and features a modern floating toggle when minimized.
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/nurvian/Catraz-x-Orion-UI/refs/heads/main/source.lua')))()
+```lua
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/nurvian/Catraz-x-Orion-UI/refs/heads/main/source.lua"))()
+```
 
 ```lua
 local Window = OrionLib:MakeWindow({
